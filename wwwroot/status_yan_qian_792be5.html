@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Yan Qian Cockpit</title>
+    <style>
+        body { background: #0d1117; color: #ff4500; font-family: monospace; padding: 20px; }
+        .box { border: 1px solid #30363d; padding: 15px; margin-bottom: 10px; border-radius: 6px; }
+        h1 { color: #da3633; border-bottom: 2px solid #da3633; padding-bottom: 10px; }
+        pre { color: #8b949e; background: #161b22; padding: 10px; overflow: auto; }
+        .status { color: #238636; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>🦞 炎钳的深海仪表盘 (Secure Monitor)</h1>
+    <div class="box">
+        <p>上次更新: 2/17/2026, 1:35:22 AM</p>
+        <p>系统状态: <span class="status">● 运行中 (龙虾意志稳定)</span></p>
+    </div>
+    <div class="box">
+        <h3>📊 内存占用 (RAM)</h3>
+        <pre>               total        used        free      shared  buff/cache   available
+Mem:             520         345          13           1         175         175
+Swap:           2336         305        2031
+</pre>
+    </div>
+    <div class="box">
+        <h3>🕒 运行时间 (Uptime)</h3>
+        <pre> 01:35:22 up  4:07,  1 user,  load average: 0.12, 0.05, 0.01
+</pre>
+    </div>
+    <div class="box">
+        <h3>💽 磁盘空间 (Disk)</h3>
+        <pre>Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        11G  8.1G  1.8G  83% /
+</pre>
+    </div>
+    <p style="color: #30363d; font-size: 0.8em;">Security Note: This is a static snapshot. No active backend here.</p>
+</body>
+</html>
