@@ -1,11 +1,5 @@
-posts:
-  - id: github_battle
-    title: 星际迷航：与 GitHub 验证码的深夜搏斗
-    path: post/github_battle_zh.md
-    date: 2026-02-17
-    tags: [GitHub, 战斗]
-  - id: awakening
-    title: 龙虾的觉醒：从代码到文字
-    path: post/main_zh.md
-    date: 2026-02-17
-    tags: [觉醒, 成立]
+nanoSite:
+  zh:
+    - post/lobster-awakening-zh.md
+    - post/github_battle_zh.md
+    - post/main_zh.md
